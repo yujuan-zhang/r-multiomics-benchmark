@@ -4,8 +4,6 @@ R scripts for comparing single-omics and multi-omics classification on paired da
 
 It also checks how DIABLO performs with one block missing at prediction time, and how smaller feature selections affect accuracy. You need both omics blocks for training and evaluation.
 
-![Results](results/overview.png)
-
 ## Run the example
 
 Install the packages in R:
@@ -55,6 +53,10 @@ Scores are **balanced accuracy**: recall averaged across classes. The “Inner-s
 Repeats share samples, so their spread is not a confidence interval. Selected features are exploratory and need validation on new data.
 
 ## Example data and results
+
+![Model performance, missing-block predictions, panel sizes and feature selection frequency](results/overview.png)
+
+The figure compares prediction accuracy, performance with one omics block missing, feature-panel sizes, and how often features are selected across training sets.
 
 [Nutrimouse](https://mixomics.org/wp-content/uploads/2025/01/rCCA-Nutrimouse-Case-Study.html) contains 40 mice, 120 preselected macroarray expression measurements and 21 hepatic fatty acids. The task is to predict five diets, with folds balanced by genotype. Lipid percentages are transformed with `log1p`; they remain compositional. Data details are in `data/PROVENANCE.txt`.
 
