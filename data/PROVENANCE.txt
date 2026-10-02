@@ -1,0 +1,13 @@
+Nutrimouse, distributed with mixOmics; export version:
+6.36.0
+https://bioconductor.org/packages/mixOmics/
+40 mice; 120 preselected gene-expression measurements; 21 hepatic fatty acids.
+Outcome: five diets. Fold-balancing stratum: genotype (wt / ppar).
+Block A: supplied expression values from nylon macroarrays (not RNA-seq).
+Block B: log1p of supplied fatty-acid percentages; zeros retained as zero.
+This is not a log-ratio analysis; compositional dependence remains.
+IDs mouse_01..mouse_40 preserve the original package row order.
+Martin et al. (2007), Novel aspects of PPARalpha-mediated regulation of lipid
+and xenobiotic metabolism revealed through a multigenomic study.
+Demo reproduces a historical, preprocessed dataset; preprocessing upstream
+of the published matrices cannot be repeated within cross-validation.

@@ -1,0 +1,28 @@
+"repeat_id","method","balanced_accuracy","mean_selected_features"
+1,"A only",0.7,NA
+2,"A only",0.675,NA
+3,"A only",0.675,NA
+1,"B only",1,NA
+2,"B only",1,NA
+3,"B only",1,NA
+1,"Concatenated",0.975,NA
+2,"Concatenated",0.95,NA
+3,"Concatenated",0.975,NA
+1,"DIABLO",0.975,29.25
+2,"DIABLO",1,38.75
+3,"DIABLO",0.975,38
+1,"DIABLO: A available",0.575,29.25
+2,"DIABLO: A available",0.625,38.75
+3,"DIABLO: A available",0.4,38
+1,"DIABLO: B available",0.975,29.25
+2,"DIABLO: B available",1,38.75
+3,"DIABLO: B available",0.975,38
+1,"Inner-selected single",1,NA
+2,"Inner-selected single",1,NA
+3,"Inner-selected single",1,NA
+1,"Panel 10/block/component",0.975,42.75
+2,"Panel 10/block/component",1,48.5
+3,"Panel 10/block/component",0.975,43
+1,"Panel 5/block/component",0.975,27
+2,"Panel 5/block/component",0.975,26.25
+3,"Panel 5/block/component",1,28.25
